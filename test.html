@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test Embed</title>
+<script src="replace-youtube-koemei.js"></script>
+</head>
+
+<body>
+
+  <iframe class="youtube-player" type="text/html" style="width: 400px; height: 300px"
+    src="//www.youtube.com/embed/U0UkYD2juYU?wmode=opaque" frameborder="0"> </iframe>
+
+
+  <iframe class="youtube-player" type="text/html" style="width: 400px; height: 300px"
+    src="//www.youtube.com/embed/38IqQpwPe7s?wmode=opaque" frameborder="0"></iframe>
+
+  <iframe class="youtube-player" type="text/html" style="width: 400px; height: 300px"
+    src="http://google.com" frameborder="0"></iframe>
+
+
+  <script type="text/javascript">
+
+    var kyr = new KoemeiYoutubePlayerReplace({
+      token: '7a234e01cb9142da86d03d6bf45e37fb'
+    });
+
+    kyr.init();
+
+  </script>
+</body>
+</html>
+
+
