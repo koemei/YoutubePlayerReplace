@@ -1,0 +1,8 @@
+.DS_Store
+.nodemonignore
+npm-debug.log
+# but let files (test-lib.js) to be committed
+node_modules/*/
+
+*.log
+
