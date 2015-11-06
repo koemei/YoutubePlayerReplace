@@ -1,0 +1,24 @@
+{
+  "name": "Koemei-Youtube-Player-Replace",
+  "description": "Replace youtubve player with koemei's player",
+  "version": "0.0.1",
+  "private": false,
+  "author": "https://github.com/koemei/YoutubePlayerReplace/graphs/contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koemei/YoutubePlayerReplace.git"
+  },
+  "engines": {
+    "node": ">=0.10.x",
+    "npm": ">=1.4.x"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-insert": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+    "run-sequence": "latest"
+  },
+  "subdomain": "koemei"
+}

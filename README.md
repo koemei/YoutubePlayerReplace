@@ -1,2 +1,15 @@
 # YoutubePlayerReplace
-Replace youtube player with Koemei's Player
+
+## Usage
+  ```javascript
+  // link to the plugin:
+  <script src="replace-youtube-koemei.js"></script>
+
+  // initialize
+  var kyr = new KoemeiYoutubePlayerReplace({
+    token: 'YOUR_TOKEN_HERE'
+  });
+
+  kyr.init();
+  ```
+

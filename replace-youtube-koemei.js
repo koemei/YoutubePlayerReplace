@@ -28,7 +28,6 @@
 
   function run() {
     var iframes = document.body.getElementsByTagName('iframe');
-    console.log(iframes)
     for (var l in iframes) {
       processIFrame.call(iframes[l], this.options);
     }
@@ -41,7 +40,7 @@
     src = this.getAttribute('src');
 
     // skip non youtube iframes
-    if (!containsOneOf(src, VALID_YOUTUBE_DOMAINS)) return false;
+    if (!containsOneOf(src, options.VALID_YOUTUBE_DOMAINS)) return false;
 
     // extract youtube video id
     var videoId = extractVideoId(src);
@@ -120,4 +119,3 @@
   };
 
 }());
-
